@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mult" translatesAutoresizingMaskIntoConstraints="NO" id="kMc-qG-OID">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="kMc-qG-OID">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0af-LY-hKy">
@@ -25,8 +25,11 @@
                                     <segue destination="xyE-qG-E3Q" kind="embed" identifier="onboardingPagerSegue" id="cma-FQ-RCY"/>
                                 </connections>
                             </containerView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="spota" translatesAutoresizingMaskIntoConstraints="NO" id="MSO-ZK-Pxb">
-                                <rect key="frame" x="101.33333333333333" y="401" width="172.33333333333337" height="94"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="MSO-ZK-Pxb">
+                                <rect key="frame" x="-412.66666666666669" y="401" width="1200.3333333333333" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="6n8-rU-sri"/>
+                                </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="I5b-4Q-GdR">
                                 <rect key="frame" x="16" y="646" width="343" height="116"/>
@@ -103,18 +106,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ez3-Pq-JeW">
-                                <rect key="frame" x="38" y="298" width="337" height="364"/>
+                                <rect key="frame" x="38" y="319.33333333333326" width="337" height="342.66666666666674"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding0" translatesAutoresizingMaskIntoConstraints="NO" id="78e-9n-rs1">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board" translatesAutoresizingMaskIntoConstraints="NO" id="78e-9n-rs1">
                                         <rect key="frame" x="8" y="0.0" width="321" height="321"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="78e-9n-rs1" secondAttribute="height" id="ROq-ed-5zV"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hn4-6X-BeV">
-                                        <rect key="frame" x="52.333333333333329" y="321" width="232.33333333333337" height="43"/>
-                                        <string key="text">Создавайте и учавствуйте 
-в спортивных событиях</string>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titime" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hn4-6X-BeV">
+                                        <rect key="frame" x="145" y="321.00000000000006" width="47" height="21.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                         <color key="textColor" systemColor="systemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -152,16 +153,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AaS-xv-W75">
-                                <rect key="frame" x="38" y="298" width="337" height="364"/>
+                                <rect key="frame" x="38" y="319.33333333333326" width="337" height="342.66666666666674"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding1" translatesAutoresizingMaskIntoConstraints="NO" id="BV4-7a-zeB">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board" translatesAutoresizingMaskIntoConstraints="NO" id="BV4-7a-zeB">
                                         <rect key="frame" x="8" y="0.0" width="321" height="321"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="BV4-7a-zeB" secondAttribute="height" id="4fd-Gq-ucP"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Находите игроков или говорите всем что хотите поиграть" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bR-vJ-16Y">
-                                        <rect key="frame" x="4.3333333333333428" y="321" width="328.33333333333326" height="43"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bR-vJ-16Y">
+                                        <rect key="frame" x="153" y="321.00000000000006" width="31.333333333333343" height="21.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                         <color key="textColor" systemColor="systemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -240,14 +241,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Xi-oE-fI0">
                                 <rect key="frame" x="38" y="319.33333333333326" width="337" height="342.66666666666674"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding3" translatesAutoresizingMaskIntoConstraints="NO" id="yba-97-38D">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board" translatesAutoresizingMaskIntoConstraints="NO" id="yba-97-38D">
                                         <rect key="frame" x="8" y="0.0" width="321" height="321"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="yba-97-38D" secondAttribute="height" id="yN1-QB-VZJ"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Находите спортивные площадки" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlK-Mh-dt4">
-                                        <rect key="frame" x="26.666666666666686" y="321.00000000000006" width="284" height="21.666666666666686"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlK-Mh-dt4">
+                                        <rect key="frame" x="153" y="321.00000000000006" width="31.333333333333343" height="21.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                         <color key="textColor" systemColor="systemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -287,14 +288,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NRJ-Vl-Qv3">
                                 <rect key="frame" x="38" y="319.33333333333326" width="337" height="342.66666666666674"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding2" translatesAutoresizingMaskIntoConstraints="NO" id="QpB-ce-JKX">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board" translatesAutoresizingMaskIntoConstraints="NO" id="QpB-ce-JKX">
                                         <rect key="frame" x="8" y="0.0" width="321" height="321"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="QpB-ce-JKX" secondAttribute="height" id="sRg-y6-mcc"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Находите спортивные площадки" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1d-Hd-zAh">
-                                        <rect key="frame" x="26.666666666666686" y="321.00000000000006" width="284" height="21.666666666666686"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1d-Hd-zAh">
+                                        <rect key="frame" x="153" y="321.00000000000006" width="31.333333333333343" height="21.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                         <color key="textColor" systemColor="systemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
@@ -325,12 +326,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="mult" width="360" height="617"/>
-        <image name="onboarding0" width="261" height="200"/>
-        <image name="onboarding1" width="261" height="208"/>
-        <image name="onboarding2" width="236" height="200"/>
-        <image name="onboarding3" width="287" height="200"/>
-        <image name="spota" width="173" height="95"/>
+        <image name="back" width="500" height="750"/>
+        <image name="board" width="452" height="452"/>
+        <image name="logo" width="1200" height="325"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
